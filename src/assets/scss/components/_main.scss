@@ -1,0 +1,117 @@
+.marketing-section {
+  text-align: center;
+  padding-top: 80px;
+
+  .marketing-section-header {
+    color: $secondary-color;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding: 0 460px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+
+  .service-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+  }
+
+  .card {
+    background-color: $white;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: 100%;
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .card-section {
+      padding: 20px;
+    }
+    .card-title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .card-description {
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+  }
+}
+.industry-section,
+.industry-section-below {
+  padding: 0px 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: center;
+
+  .image-wrapper {
+    height: 700px;
+    width: 700px;
+    border-radius: 45px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+    }
+  }
+
+  .text {
+    .section-title {
+      padding-right: 250px;
+      font-size: 40px;
+      font-weight: 700;
+      color: $secondary-color;
+    }
+    .section-description {
+      padding-right: 180px;
+      margin-top: 20px;
+      color: $light-gray;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 40px;
+    }
+  }
+}
+
+.engagement-section {
+  text-align: center;
+  padding: 0px 90px;
+  align-items: center;
+  .section-title {
+    padding: 0 350px;
+    font-size: 40px;
+    font-weight: 700;
+    color: $secondary-color;
+  }
+  .section-description {
+    margin-top: 20px;
+    color: #444444;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+
+.info-cards {
+  padding: 0 80px;
+  margin: 80px 0;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
