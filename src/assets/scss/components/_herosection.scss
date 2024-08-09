@@ -1,0 +1,39 @@
+.hero-section {
+    background-image: url('../../../assets/images/Bg_heroSection.svg');
+    background-repeat: no-repeat;
+    background-position: -30px 70px;
+    background-size: contain;
+      background-color: $primary;
+      color: $white;
+      text-align: left;
+      padding: 20px 80px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 160px; 
+      .container{
+        padding-right: 180px;
+        .value{
+            margin-top: 40px;
+            font-size: 16px;
+        }
+        .hero-header{
+            font-size: 48px;
+            font-weight: 700;
+            margin: 40px 0 20px 0;
+          }
+        
+          .hero-description {
+            font-weight: 300;
+            font-size: 20px;
+            margin-top: 24px;
+          }
+      }
+     
+      .heroSection-imgWrapper{
+        margin: 0 40px;
+    height: 500px;
+    width:500px;
+    border-radius: 45px;
+      }
+    }
+    
